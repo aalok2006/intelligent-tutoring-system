@@ -1,0 +1,14 @@
+Flask
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-SocketIO
+psycopg2-binary  # PostgreSQL adapter
+python-dotenv    # For local development .env
+gunicorn         # Production WSGI server
+redis            # Celery broker and cache
+celery
+python-engineio==4.3.0 # Specify versions due to compatibility issues sometimes
+python-socketio==5.8.0 # Specify versions
+requests         # For external API calls (e.g., LLM)
+# Will Add libraries for AI/ML/NLP as needed in later phases
+# e.g., openai, spacy, numpy, pandas, scikit-learn
